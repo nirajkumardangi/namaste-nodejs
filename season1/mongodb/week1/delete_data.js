@@ -8,7 +8,7 @@ async function main() {
   console.log('Connected successfully to server');
   const db = client.db('user_login_data');
   const users = db.collection('login_data');
-  /*
+
   // DELETE Operations
   // 1. deleteOne() - 1 Document Delete
 
@@ -34,7 +34,6 @@ async function main() {
   await users.deleteMany({});
 
   //================================================================================
-  */
 
   // 3. findOneAndDelete() - Delete & Return
   // return deleted document

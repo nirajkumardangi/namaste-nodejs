@@ -8,7 +8,7 @@ async function main() {
   console.log('Connected successfully to server');
   const db = client.db('user_login_data');
   const users = db.collection('login_data');
-  /*
+
   //=====================================================================================
   // 🔷 1. Comparison Operators
 
@@ -79,7 +79,6 @@ async function main() {
   );
   // people living in any of these 3 cities
 
-  */
   // $nin - Not In (These values are not needed)
   console.log(
     await users
